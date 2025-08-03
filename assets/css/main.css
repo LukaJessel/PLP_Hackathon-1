@@ -1,3 +1,8 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700, 800');
+
+
+
+
 body {
   background: #ffffff;
   color: #7d7d7d;
@@ -6,6 +11,27 @@ body {
   line-height: 2;
   position: relative;
   -webkit-font-smoothing: antialiased;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+border-color: transparent;
+background-color: transparent;
+}
+
+.navbar-default {
+background-color: transparent;
+border-color: transparent;
+}
+
+a.navbar-brand {
+color: #ff2b4a;
+text-transform: uppercase;
+font-weight: bold;
+font-style: italic;
+}
+
+.navbar-default .navbar-brand:hover {
+color: #ff2b4a;
 }
 
 section#hero{
@@ -218,7 +244,7 @@ section#skill .div-1 h4{
 	font-size: 1.5em;
 }
 
-section#skill .div-1 .fa{
+section#skill .div-1 .fa-brands, .fa-solid{
 	font-size: 40px;
 	padding: 10px 0px 5px 0px;
 }
@@ -370,20 +396,17 @@ section#contact .web span, section#contact .phn span{
 }
 
 
-section#footer{
+footer#footer{
 	padding: 30px 0px 30px 0px;
 	background-color: #222222;
+    overflow: hidden;
 }
 
-section#footer p{
+footer#footer p{
 	color: #fff;
 	font-size: 1.2em;
 	margin: 0% 2% 0% 2%;
 
 }
 
-section#footer p span{
-	font-size: 1.4em;
-	color: #ff2b4a 
-}
 
