@@ -1,0 +1,389 @@
+body {
+  background: #ffffff;
+  color: #7d7d7d;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight:600;
+  line-height: 2;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+section#hero{
+	background: linear-gradient(rgba(115, 2, 30, 0.5), rgba(115, 2, 30, 0.5)), url('../images/hero.png');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 200px 0px 200px 0px;
+}
+
+section#hero h2{
+	color: #fff;
+	font-size: 2.8em;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+section#hero p{
+	font-size: 1.4em;
+	color: #fff;
+}
+
+section#hero h2:before{
+	content: "";
+	height: 3px;
+	width: 50%;
+    display: block;
+	background-color: #ffffff;
+    font-weight: bolder;
+	margin: 0 auto;
+	margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+section#hero h2:after{
+	content: "";
+	height: 3px;
+	width: 50%;
+    display: block;
+	background-color: #ffffff;
+    font-weight: bolder;
+	margin: 0 auto;
+	margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+#abot{
+	padding: 50px 0px 50px 0px;
+	
+}
+
+section#abot h3{
+	font-weight: bold;
+	font-size: 18px;
+	padding: 5px 0px 5px 0px;
+    text-transform: uppercase;
+}
+section#abot p{
+	padding: 5px 0px 5px 0px;
+}
+
+section#abot .btn{
+	background-color: #ff2b4a!important;
+	border-radius: 0px!important;
+	border-color: #ff2b4a!important;
+	font-size: 15px!important;
+	padding: 8px 45px 8px 45px!important;
+	
+}
+
+section#abot .btn:hover{
+	background-color: transparent!important;
+	color:#ff2b4a!important;
+	
+}
+
+section#back{
+	padding: 5px 0px 5px 0px;
+    color: #fff;
+    background-color: #f5f5f5;
+	
+}
+div#content {
+    padding: 10px;
+}
+
+section#back .educ{
+	background-color: #66657d;
+	padding: 20px 0px 20px 0px !important;
+	margin: 10px 0px 10px 0px;
+	
+}
+
+section#back .educ h4{
+	margin-left: 10px;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+section#back .educ p, section#back .job p{
+	margin-right: 5%;
+}
+
+.hr:after{
+	content: "";
+	height: 1px;
+	width: 98%;
+    display: block;
+	background-color: #fff;
+	margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+#cont h5{
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+section#interests{
+	padding: 50px 0px 50px 0px;
+	background-color: #64cbc0;
+	
+}
+
+section#interests h3{
+	margin-bottom: 30px;
+}
+
+section#interests .fa{
+	font-size: 40px;
+}
+
+section#interests p{
+	color: #000;
+}
+
+section#interests h6{
+	margin-top: 2%;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+section#interests span{
+	color: #000;
+	font-weight: bold;
+	font-style: italic;
+}
+
+section#interests h6{
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+
+section#skill{
+	padding: 50px 0px 50px 0px;
+	background-color: #f6f6f6;
+	
+}
+
+section#skill h3{
+	padding-bottom: 20px;
+	font-weight: bold;
+	font-size: 1.8em;
+}
+
+section#skill .shaw{
+	margin: 0 auto;
+}
+
+section#skill .div-1{
+	background-color: #ff2b4a;
+	width: 31%;
+	margin-right: 2%;
+	margin-bottom: 20px;
+	opacity: 0.8;
+	color: #fff;
+}
+section#skill .div-1#one{
+	background-color: #10c6fc;
+	
+}
+section#skill .div-1#two{
+	background-color: #f1c40f;
+	
+}
+section#skill .div-1#three{
+	background-color: #002453;
+	
+}
+section#skill .div-1#four{
+	background-color: #3498db;
+	
+}
+section#skill .div-1#five{
+	background-color: #16a085;
+	
+}
+section#skill .div-1#six{
+	background-color: #8e44ad;
+	
+}
+
+section#skill .div-1 h4{
+	padding: 5px 0px 5px 0px;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+section#skill .div-1 .fa{
+	font-size: 40px;
+	padding: 10px 0px 5px 0px;
+}
+
+section#act{
+	padding: 50px 0px 50px 0px;
+	background-color: #f6f6f6;
+	
+}
+
+section#act h3{
+	margin-bottom: 7%;
+	font-size: 1.8em; 
+	text-transform: uppercase;
+}
+section#act .btn{
+	background-color: #ff2b4a;
+	border-radius: 0px;
+	border-color: #ff2b4a;
+	font-size: 15px;
+	padding: 8px 45px 8px 45px;
+	
+}
+
+section#act .btn:hover, section#contact .mmg-btn:hover, section#abot .btn:hover{
+	background-color: transparentimportant;
+	border: 1px solid #ff2b4a!important;
+	color: #ff2b4a!important;
+
+}
+
+section#act .actb{
+	margin: 0 auto;
+}
+
+
+.thumbnail{
+	border-radius: 0px;
+	background-color: transparent;
+	border: none;
+}
+
+.thumbnail img{
+	width: 100%;
+}
+
+.thumbnail p{
+	background-color: #ffffff;
+	color: #333;
+	font-weight: lighter;
+	padding: 10px;
+}
+
+section#contact{
+	padding: 50px 0px 50px 0px;
+	background: url('../images/contact.png');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+section#contact textarea{
+	min-height: 200px;
+	max-height: auto;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+:moz-placeholder{
+	color: #ffffff!important;
+	font-weight: lighter;
+}
+
+::-webkit-input-placeholder{
+	color: #ffffff!important;
+	font-weight: lighter;
+}
+
+::moz-placeholder{
+	color: #ffffff!important;
+	font-weight: lighter;
+}
+
+:ms-input-placeholder{
+	color: #ffffff!important;
+	font-weight: lighter;
+}
+
+
+section#contact .frm{
+	background-color: #4c637d;
+	opacity: 0.7;
+	padding-bottom: 100px;
+	padding-top: 30px;
+	margin-bottom: 10px;
+}
+
+section#contact h2{
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.4em;
+	padding: 20px 10px 20px 20px;
+}
+
+section#contact .fa{
+	margin-right: 4px;
+	color: #fff;
+}
+
+section#contact .phn .fa, section#contact .web .fa{
+	margin-right: 4px;
+	color: #ff2b4a;
+}
+
+
+
+
+section#contact .phn{
+	background-color: #4c637d;
+	padding-top: 40px;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	opacity:0.75;
+	
+}
+
+section#contact .web{
+	background-color: #4c637d;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	opacity: 0.75;
+}
+
+section#contact .web h3, section#contact .phn h3{
+	color: #fff;
+	font-weight: lighter;
+	text-transform: uppercase;
+	padding: 20px 0px 10px 20px;
+	margin-top: 10px;
+}
+
+section#contact .web span, section#contact .phn span{
+	color: #fff;
+	padding: 5px 0px 20px 30px;
+	bottom: 20px;
+	font-size: 15px;
+	line-height: 40px;
+	font-weight: lighter;
+}
+
+
+section#footer{
+	padding: 30px 0px 30px 0px;
+	background-color: #222222;
+}
+
+section#footer p{
+	color: #fff;
+	font-size: 1.2em;
+	margin: 0% 2% 0% 2%;
+
+}
+
+section#footer p span{
+	font-size: 1.4em;
+	color: #ff2b4a 
+}
+
