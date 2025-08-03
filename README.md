@@ -1,21 +1,38 @@
-# Welcome to the Digital Garden of Luka Jessel Gichuru!
-
-You've just stumbled upon the source code for a dynamic and engaging portfolio website. Think of this repository not just as a collection of files, but as the foundation of a digital garden where skills, projects, and experiences are cultivated. This is a special place where the human-centered approach of a counseling psychologist and business support specialist blossoms into the impactful world of web development. It’s a journey captured in code, ready for you to explore.
 
 ---
 
-### What's Growing in the Garden?
+### 📘 Project Overview
 
-This project is a vibrant showcase of web development fundamentals. The core of our garden is the **`index.html`** file, which acts as the main plot where all the different sections of the portfolio—from "About Me" to "Projects"—are laid out. The visual appeal is brought to life by the **`assets/`** directory, our virtual greenhouse. Inside, you'll find the **`css/`** folder containing style sheets like `bootstrap.min.css` and `main.css`, which are the magic fertilizers that make the site look beautiful and responsive on any device. The **`images/`** folder holds the visual flora, including Luka's photo and snapshots of his projects, while the **`js/`** folder contains the active scripts, powered by jQuery and Bootstrap, that ensure a smooth and interactive experience. Lastly, the **`Luka Jessel Curriculum Vitae.pdf`** is the detailed ledger of all the growth and achievements.
+This project is a **personal portfolio website** for Luka Jessel Gichuru, a Kenyan web developer with a multidisciplinary background in counseling psychology, customer support, and business administration. The website is designed to showcase Luka’s professional profile, including his skills, educational background, projects, and personal interests. It is built using **HTML5**, **CSS3**, **Bootstrap 5**, and **Font Awesome**, with some basic JavaScript powered by jQuery for interactivity. The design is fully responsive and mobile-friendly, ensuring a good experience on all screen sizes.
 
----
+The homepage includes a **navigation bar** that links to different sections of the single-page layout, including Hero, About Me, Education, Interests, Skills, Projects, and Contact. The **Hero section** prominently displays Luka’s name and personal tagline, while the **About Me section** provides an overview of his journey into web development. The **Education section** presents his academic history using a clean, readable layout. The **Interests section** articulates his motivation for combining technology with human-centered design, drawing on his psychology background. The **Skills section** lists programming languages and tools Luka is proficient in, such as HTML, CSS, JavaScript, PHP, SQL, and WordPress. In the **Projects section**, screenshots and descriptions of example work are displayed, each with a placeholder link to learn more. The **Contact section** provides Luka’s email, phone number, and website, and the **footer** includes a copyright.
 
-### How to Nurture Your Own Version
-
-Getting this website to bloom on your local machine is simple. First, you'll need to clone this repository to bring a copy of the garden to your desktop. Once you have the files, simply open the `index.html` file in any modern web browser. There's no need for complex setup or server configurations—it's designed to be simple and accessible. With just a few clicks, you can witness the fully-formed, immersive portfolio come to life. This project serves as an excellent starting point for anyone interested in classic front-end development, showcasing a solid structure built with HTML, CSS, and JavaScript.
+The website is suitable for a professional portfolio, especially for job-seeking developers, freelancers, or anyone building a brand as a digital creator. While functional, improvements could include adding form functionality to the contact section, refining SEO metadata, improving accessibility, and connecting the project section to live links or repositories.
 
 ---
 
-### The Vision Behind the Design
+### 💬 Code Walkthrough (Explained as a Guide)
 
-The philosophy behind this portfolio is about more than just showcasing technical skills. It’s a bridge between a deep understanding of human needs and the practical application of technology. The design is clean and logical, reflecting Luka's journey from counseling to coding—a move from solving human problems to crafting digital solutions that solve those same problems more efficiently. The site's sections, from Education to Interests, paint a comprehensive picture of a developer who values empathy and user experience above all else. This isn't just a portfolio; it's a testament to the power of a multidisciplinary background and a passion for creating meaningful digital experiences. Enjoy exploring the code and getting to know the developer behind it!
+The HTML document starts with a standard `<!DOCTYPE html>` declaration to specify HTML5, followed by conditional comments to handle old versions of Internet Explorer—though this technique is outdated and mostly unnecessary for modern web projects.
+
+In the `<head>` section, metadata is declared such as character encoding, browser compatibility, and viewport settings for responsive design. Stylesheets are loaded next, including Bootstrap for responsive layout, a custom CSS file for specific styling, and Font Awesome for iconography. jQuery is included before the closing `</head>` tag.
+
+The body begins with a warning for users on very old browsers, prompting them to upgrade. Then comes the **navigation bar**, which is a fixed-top Bootstrap component. It contains a brand name on the left and several links on the right pointing to page sections like Home, About, Education, Interests, Skills, Projects, and Contact. Each link uses a hash to scroll smoothly to its corresponding section on the page.
+
+Next is the **Hero section**, which centers Luka’s name and professional tagline, styled with Bootstrap’s utility classes for layout and typography. After that, the **About Me section** uses a two-column layout—one for an image of Luka and the other for a personal introduction with a button to download his CV in PDF format.
+
+The **Education section** follows, which lists Luka’s academic qualifications, each in its own block with icons from Font Awesome to enhance visual appeal. The entries include institutions, dates attended, and the awarded credentials.
+
+The **Interests section** is a centered block quote-style layout. It contains a paragraph summarizing Luka’s passion for combining human behavior and tech design, culminating in a human-centered approach to software development.
+
+Then comes the **Skills section**, divided into six blocks for different technologies: HTML5, CSS3, JavaScript, PHP, SQL, and WordPress. Each skill is represented by a Font Awesome icon and a title, styled to appear visually consistent across devices.
+
+The **Projects section** showcases thumbnails of Luka’s past projects. Each item includes a screenshot, a short description, and a placeholder link (currently `#`) to view more details. This grid layout uses Bootstrap columns to maintain responsiveness.
+
+The **Contact section** displays Luka’s phone number, email address, and website, each with accompanying icons. These are placed in a three-column layout for balance.
+
+At the bottom, the **footer** contains a simple copyright notice.
+
+Scripts are loaded at the end of the body to ensure the page content loads first. These include the Bootstrap JavaScript bundle, which enables dynamic components like the navbar toggle.
+
+---
